@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-zireael",
+  "version": "1.0.0",
+  "description": "ESLint shareable config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resure/eslint-config-zireael.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Gadzhi Gadzhiev <inbox@resure.net> (https://resure.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3"
+  }
+}
