@@ -67,7 +67,7 @@ module.exports = {
         'no-multiple-empty-lines': 'error',
         'no-whitespace-before-property': 'error',
         'object-curly-spacing': ['error', 'never'],
-        'quote-props': ['warning', 'consistent'],
+        'quote-props': ['warn', 'consistent'],
         'complexity': 'warn',
         'vars-on-top': 'off',
         'wrap-regex': 'off',
