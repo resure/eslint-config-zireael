@@ -6,9 +6,9 @@ module.exports = {
     },
 
     'rules': {
-        'indent': ['error', 4, {'SwitchCase': 1}],
+        'indent': ['error', 'tab', {'SwitchCase': 1}],
         'linebreak-style': ['error', 'unix'],
-        'quotes': ['error', 'single'],
+        'quotes': 'off',
         'semi': ['error', 'always'],
         'brace-style': ['error', '1tbs', {'allowSingleLine': true}],
         'camelcase': ['error', {'properties': 'never'}],
