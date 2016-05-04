@@ -15,5 +15,8 @@
   "devDependencies": {
     "babel-eslint": "^6.0.0",
     "eslint": "^2.5.3"
+  },
+  "scripts": {
+    "test": "echo 'Nothing to test'"
   }
 }
