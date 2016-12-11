@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': 'stat',
+    'extends': 'zireael',
 
     'env': {
         'es6': true
