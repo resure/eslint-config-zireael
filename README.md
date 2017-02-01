@@ -4,8 +4,14 @@ Shareable configs for ESLint.
 
 ## Install
 
+With yarn:
+
 ```
-$ npm install --save-dev eslint@2.x babel-eslint@6 eslint-config-zireael
+$ yarn add --dev eslint-config-zireael
+```
+
+```
+$ npm install --save-dev eslint-config-zireael
 ```
 
 ## Usage
