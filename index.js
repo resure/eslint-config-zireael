@@ -3,18 +3,15 @@ module.exports = {
         'es6': true
     },
 
-    'ecmaFeatures': {
-        'classes': true,
-        'jsx': true
-    },
-
     'plugins': ['react'],
 
     'extends': ['plugin:react/recommended'],
 
+    'parser': 'babel-eslint',
     'parserOptions': {
         'sourceType': 'module',
         'ecmaFeatures': {
+            'classes': true,
             'jsx': true,
             'experimentalObjectRestSpread': true
         }
