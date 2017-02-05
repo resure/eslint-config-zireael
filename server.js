@@ -1,11 +1,7 @@
 module.exports = {
-    'extends': 'zireael/es2015',
+    'extends': 'zireael',
 
     'env': {
         'node': true
-    },
-
-    'rules': {
-        'global-require': 'warn'
     }
 };

@@ -1,4 +1,20 @@
 module.exports = {
+    'env': {
+        'es6': true
+    },
+
+    'plugins': ['react'],
+
+    'extends': ['plugin:react/recommended'],
+
+    'parserOptions': {
+        'sourceType': 'module',
+        'ecmaFeatures': {
+            'jsx': true,
+            'experimentalObjectRestSpread': true
+        }
+    },
+
     'rules': {
         'array-bracket-spacing': ['error', 'never'],
         'array-callback-return': 'error',
@@ -20,10 +36,11 @@ module.exports = {
         'eol-last': 'warn',
         'eqeqeq': ['warn', 'always'],
         'func-call-spacing': ['error', 'never'],
+        'jsx-quotes': ['error', 'prefer-single'],
         'generator-star-spacing': ['error', {'before': false, 'after': true}],
         'guard-for-in': 'error',
         'handle-callback-err': 'warn',
-        'indent': ['error', 'tab', {'SwitchCase': 1}],
+        'indent': ['error', 4, {'SwitchCase': 1}],
         'key-spacing': ['error', {'beforeColon': false, 'afterColon': true}],
         'keyword-spacing': ['error', {'before': true, 'after': true}],
         'linebreak-style': ['error', 'unix'],
@@ -123,6 +140,7 @@ module.exports = {
         'no-useless-concat': 'error',
         'no-useless-constructor': 'error',
         'no-useless-escape': 'error',
+        'no-var': 'error',
         'no-void': 'error',
         'no-whitespace-before-property': 'error',
         'no-with': 'error',
@@ -138,6 +156,10 @@ module.exports = {
         'space-unary-ops': 'error',
         'spaced-comment': 'warn',
         'strict': 'warn',
+        'prefer-arrow-callback': 'warn',
+        'prefer-const': 'error',
+        'prefer-template': 'warn',
+        'require-yield': 'warn',
         'template-curly-spacing': ['error', 'never'],
         'use-isnan': 'error',
         'valid-jsdoc': ['warn', {'requireParamDescription': false, 'requireReturnDescription': false}],
