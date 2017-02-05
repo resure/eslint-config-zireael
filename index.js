@@ -3,6 +3,11 @@ module.exports = {
         'es6': true
     },
 
+    'ecmaFeatures': {
+        'classes': true,
+        'jsx': true
+    },
+
     'plugins': ['react'],
 
     'extends': ['plugin:react/recommended'],
