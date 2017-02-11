@@ -3,20 +3,6 @@ module.exports = {
         'es6': true
     },
 
-    'plugins': ['react'],
-
-    'extends': ['plugin:react/recommended'],
-
-    'parser': 'babel-eslint',
-    'parserOptions': {
-        'sourceType': 'module',
-        'ecmaFeatures': {
-            'classes': true,
-            'jsx': true,
-            'experimentalObjectRestSpread': true
-        }
-    },
-
     'rules': {
         'array-bracket-spacing': ['error', 'never'],
         'array-callback-return': 'error',
@@ -38,7 +24,6 @@ module.exports = {
         'eol-last': 'warn',
         'eqeqeq': ['warn', 'always'],
         'func-call-spacing': ['error', 'never'],
-        'jsx-quotes': ['error', 'prefer-single'],
         'generator-star-spacing': ['error', {'before': false, 'after': true}],
         'guard-for-in': 'error',
         'handle-callback-err': 'warn',
